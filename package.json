@@ -1,0 +1,27 @@
+{
+  "name": "xuxin-pong",
+  "version": "1.0.0",
+  "description": "pong remake",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efsofian/xuxin.git"
+  },
+  "keywords": [
+    "seliasbe",
+    "pong"
+  ],
+  "author": "seliasbe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/efsofian/xuxin/issues"
+  },
+  "homepage": "https://github.com/efsofian/xuxin#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
+  }
+}
