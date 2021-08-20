@@ -5,7 +5,7 @@ const apiServer = require("./api");
 
 const httpServer = http.createServer(apiServer);
 const socketServer = io(httpServer);
-const PORT = 3000;
+const PORT = process.env.PORT || 80;
 
 httpServer.listen(PORT);
 console.log(`listening on PORT: ${PORT}`);
